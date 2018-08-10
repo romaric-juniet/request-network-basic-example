@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "install": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -12,5 +13,9 @@
     "@requestnetwork/request-network.js": "0.7.4",
     "truffle-hdwallet-provider": "0.0.5",
     "web3": "1.0.0-beta.35"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-command": "^0.4.1"
   }
 }
